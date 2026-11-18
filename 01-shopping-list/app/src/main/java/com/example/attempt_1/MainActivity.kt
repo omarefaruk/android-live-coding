@@ -33,29 +33,22 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Attempt1Theme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
+                ShoppingListScreen()
+
+                // A little but clueless why I cannot add a LazyColumn in ShoppingListScreen() itself,
+                //lemme try looking in the docs, but I only have 5 mins left now
+
+
             }
         }
     }
 }
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
 
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
+fun AttemptPreview() {
     Attempt1Theme {
-        Greeting("Android")
+
     }
 }
