@@ -13,6 +13,20 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.attempt_1.ui.theme.Attempt1Theme
 
+
+/*
+The task: a Shopping List app (Jetpack Compose)
+
+Set a 30-minute timer and start from a new, empty Compose project.
+
+Must have:
+
+A text field and an Add button that adds an item to a list.
+A LazyColumn that shows the items.
+Tapping an item toggles it done or not done, shown with a strikethrough or a checkbox.
+A delete button on each item.
+State lives in a ViewModel, not in the composable.*/
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
