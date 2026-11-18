@@ -49,6 +49,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun AttemptPreview() {
     Attempt1Theme {
-
+        ShoppingListScreen()
     }
 }
