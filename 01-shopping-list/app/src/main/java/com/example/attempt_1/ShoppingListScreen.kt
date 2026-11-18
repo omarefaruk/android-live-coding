@@ -16,19 +16,12 @@ import com.example.attempt_1.ui.theme.Attempt1Theme
 
 
 
-class ShoppingListScreen {
 
-    // cannot import the text for some reason, i did import above.
-    /*LazyColum*/ //no idea why this is not showing, it would probably show on MainActibity -
-    // I am thinking maybe the class
-    //I used
-
-    @Composable
-    fun ShoppingListScreen() {
-
-    }
-
-
-
+@Composable
+fun ShoppingListScreen() {
 
 }
+
+
+
+
