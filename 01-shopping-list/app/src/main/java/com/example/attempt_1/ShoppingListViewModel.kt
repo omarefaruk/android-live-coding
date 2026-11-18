@@ -1,6 +1,8 @@
 package com.example.attempt_1
 
-class ShoppingListViewModel (userInput: String) {
+import androidx.lifecycle.ViewModel
+
+class ShoppingListViewModel (): ViewModel() {
 
     //this is where our logic lays.
 
